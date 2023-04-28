@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPS Secure Email Update</title>
+    <link rel="stylesheet" href="./styles/styles2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+</head>
+
+<body>
+    <header class="ontario-header" id="ontario-header-default">
+        <div class="ontario-row">
+            <div class="ontario-header__logo-container ontario-columns ontario-small-6">
+                <a href="http://www.ontario.ca">
+                    <img class="ontario-show-for-medium" src="./assets/ontario-design-system/logos/ontario-logo--desktop.svg" alt="Government of Ontario" width="180" height="46" />
+                    <img class=" ontario-show-for-small-only" src="./assets/ontario-design-system/logos/ontario-logo--mobile.svg" alt="Government of Ontario" width="45" height="46">
+                </a>
+            </div>
+            <div class="ontario-header__nav-right-container ontario-columns ontario-small-6">
+                <a href="#" class="ontario-header__language-toggler ontario-header-button ontario-header-button--without-outline">
+                    <abbr title=Français class="ontario-show-for-small-only">
+                        FR
+                    </abbr>
+                    <span class="ontario-show-for-medium">
+                        Français
+                    </span>
+                </a>
+                <button class="ontario-button ontario-button--primary" style="margin-top: 5%; margin-left: 5%;">Menu</button>
+            </div>
+        </div>
+    </header>
+
+ 
+    <h1>BPS Secure</h1>
+    <h4 class="heading heading2">Email Verification</h4>
+    <hr />
+
+    <div class="ontario-row" style="position: relative;">
+        <div class="ontario-columns ontario-small-12">
+        <p>We have Sent an email to your registered email address with a One Time Pin for verification</p>
+        </div>
+
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="name" >
+                <strong>New Email Address*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+        
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="Middle Name" >
+                <strong>Confirm New Email Address*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="Last name" >
+                <strong>Current Password*</strong>
+            </label>
+            <input class="ontario-input" type='password' id="text-input-example">
+        </div>
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="display name" >
+                <strong>Enter One Time Pin*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+        
+        
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="Confirm-Password">
+                <strong>Confirm-Password*</strong>
+            </label>
+            <input class="ontario-input" type='password' id="text-input-example">
+        </div>
+
+
+        <!-- err msg-->
+        <!--
+            <img src="/assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg">
+        -->
+
+
+
+        <!--
+            breakline
+        -->
+            
+       
+        
+        <div class="sign-in-btn-cont">
+            <button class="ontario-button ontario-button--primary" id="register-button">
+                Cancel
+            </button>
+
+            <button class="ontario-button ontario-button--primary" id="">
+                Submit
+            </button>
+        </div>
+     
+        <div style="display:flex; align-items: center;padding-left: 194px;">
+            <p style="margin-right: 15px;">Did not recieve One Time Pin?</p>
+            <button class="ontario-button ontario-button--primary" id="" >
+                Re-Send
+            </button>
+        </div>
+        </div>
+        <footer class='ontario-footer ontario-footer--default'>
+            <div class='ontario-row'>
+                <div class='ontario-columns ontario-small-12 ft-cont'>
+                    <ul class='ontario-footer__links-container ontario-footer__links-container--inline'>
+                        <li><a class='ontario-footer__link' href='#'>About Ontario</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Accessibility</a></li>
+                        <li><a class='ontario-footer__link' href='#'>News</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Privacy</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Terms of use</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Contact us</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer> 
+    <script src="js/main.js"></script>
+</body>
+
+</html>

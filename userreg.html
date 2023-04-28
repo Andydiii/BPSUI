@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPS Secure - Registration</title>
+    <link rel="stylesheet" href="./styles/styles2.css">
+</head>
+
+<body>
+    
+    <header class="ontario-header" id="ontario-header-default">
+        <div class="ontario-row">
+            <div class="ontario-header__logo-container ontario-columns ontario-small-6">
+                <a href="http://www.ontario.ca">
+                    <img class="ontario-show-for-medium" src="./assets/ontario-design-system/logos/ontario-logo--desktop.svg" alt="Government of Ontario" width="180" height="46" />
+                    <img class=" ontario-show-for-small-only" src="./assets/ontario-design-system/logos/ontario-logo--mobile.svg" alt="Government of Ontario" width="45" height="46">
+                </a>
+            </div>
+            <div class="ontario-header__nav-right-container ontario-columns ontario-small-6">
+                <a href="#" class="ontario-header__language-toggler ontario-header-button ontario-header-button--without-outline">
+                    <abbr title=Français class="ontario-show-for-small-only">
+                        FR
+                    </abbr>
+                    <span class="ontario-show-for-medium">
+                        Français
+                    </span>
+                </a>
+                <button class="ontario-button ontario-button--primary" style="margin-top: 5%; margin-left: 5%;">Menu</button>
+            </div>
+        </div>
+    </header>
+
+    <h1>BPS Secure - Registration</h1>
+    <hr />
+
+    <div class="ontario-row" style="position: relative;">
+        <div class="ontario-columns ontario-small-12">
+            <p style="display: inline-block; text-align: right;">* Indicates required fields</p>
+        </div>
+
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="name" >
+                <strong>Name*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+
+        <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg4">
+            <p class = "error-msg"> Cannot repeat a letter 3 times or more.</p>
+        
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="Middle Name" >
+                <strong>Middle Name*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="Last name" >
+                <strong>Last Name*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="display name" >
+                <strong>Display Name*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="Email Address">
+                <strong>Email Address*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="Confirm-Email" >
+                <strong>Confirm-Email*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="Password">
+                <strong>Password*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+        
+        <div class="ontario-columns ontario-small-12">
+            <label class="labelclass" for="Confirm-Password">
+                <strong>Confirm-Password*</strong>
+            </label>
+            <input class="ontario-input" type={{type}} id="text-input-example">
+        </div>
+
+
+        <!-- err msg-->
+        <div id = error-box>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg">
+            <p class = "error-msg"> Must not match or contain first name.</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg2">
+            <p class = "error-msg"> Must not match or contain last name.</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg3">
+            <p class = "error-msg"> Must not match or contain user ID.</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg4">
+            <p class = "error-msg"> Must be at least 8 characters and less than 17.</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg4">
+            <p class = "error-msg"> Must contain lower case letter(s)</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg4">
+            <p class = "error-msg"> Must contain number(s)</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg4">
+            <p class = "error-msg"> Must contain upper case letter(s)</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg4">
+            <p class = "error-msg"> Must contain symbol(s) such as !,@,#,%</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg4">
+            <p class = "error-msg"> Must start with a letter</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg4">
+            <p class = "error-msg"> Cannot repeat a letter 3 times or more.</p>
+            <img class = "error-msg-img" src="./assets/ontario-design-system/icons/png/ontario-icon-alert-error.png" alt="error msg4">
+            <p class = "error-msg"> Passwords must match</p>
+        </div>
+
+        <!--  breakline  -->
+        <label id="tos_label" >
+            <input id="tos_checkbox" type="checkbox" name="tos_checkbox" value="tos_check">
+            <span id="aggrement">I agree to the <a href="#" id="tos_link">Terms of Service</a>
+            </span>
+        </label>
+        
+        <div class="sign-in-btn-cont">
+            <button class="ontario-button ontario-button--primary" id="register-button">
+                Register
+            </button>
+        </div>
+        <label id="tos_label2" >                            
+            <span>Already have a account? <a href="#" id="tos_link">Back to Sign In</a>
+            </span>
+        </label>
+        </div>
+        <footer class='ontario-footer ontario-footer--default'>
+            <div class='ontario-row'>
+                <div class='ontario-columns ontario-small-12 ft-cont'>
+                    <ul class='ontario-footer__links-container ontario-footer__links-container--inline'>
+                        <li><a class='ontario-footer__link' href='#'>About Ontario</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Accessibility</a></li>
+                        <li><a class='ontario-footer__link' href='#'>News</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Privacy</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Terms of use</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Contact us</a></li>
+                        <li><a class='ontario-footer__link' href='#'>Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer> 
+</body>
+
+</html>
