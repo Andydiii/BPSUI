@@ -1,0 +1,189 @@
+@import "../assets/ontario-design-system/styles/ds-theme.css";
+@import "../assets/ontario-design-system/styles/components/ontario-header/ontario-header.scss";
+
+@media only screen and (min-width:1168px) {
+  #newOPS {
+      margin-top: 14rem;
+      padding-top: 1px;
+  }
+  .toggle-password {
+      position: absolute;
+      top: 58%;
+      right: 7.5rem;
+      cursor: pointer;
+      user-select: none;
+  }
+  #registration-toggle-password {
+      position: absolute;
+      top: 58%;
+      right: 1.5rem;
+      cursor: pointer;
+      user-select: none;
+  }
+  .float-right-center {
+      float: right;
+      margin-top: 0.7rem;
+      margin-right: 6.1rem;
+  }
+}
+
+.password-form-control {
+  width: 100%;
+  position: relative;
+}
+
+h1{
+  padding-left: 10.5%;
+}
+
+.heading{
+  padding-left: 10.5%;
+}
+.heading2{
+  line-height: 0;
+}
+
+.ontario-large-push-1{
+  padding-left: 1.15%;
+}
+
+.ontario-large-push-1{
+  margin-left: 1.15%;
+}
+
+.border-line span{
+  background-color: #fff;
+  padding: 0px 10px;
+}
+
+hr{
+    width: 70%;
+    margin-left: 0;
+    color: #1A1A1A;
+ 
+  }
+
+  .border-line{
+    width: 350px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 20px 0px 20px;
+    font-size: 24px;
+  }
+  
+  .border-line span{
+    background-color: #fff;
+    padding: 0px 10px;
+  }
+
+  .navigation{
+    height: 80px;
+  }
+
+  .navimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+
+  /* Second Page */
+  /*Ontario Input Box Styling*/
+.ontario-input:focus,
+.ontario-input:active {
+  box-shadow: 0 0 0 4px #009adb;
+  outline: 4px solid transparent;
+  transition: box-shadow 0.1s ease-in-out;
+}
+.ontario-input {
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #1a1a1a;
+  display: block;
+  font-size: 1rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0 0 1rem;
+  max-width: 48rem;
+  width: 100%;
+  padding: 0.625rem 1rem;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+  .ontario-columns {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+
+  .ontario-input {
+    width: 300px;
+    margin-top: 5px;
+  }
+
+  .ontario-input2 {
+    width: 250px;
+    margin-left: 20px;
+    padding: 5px;
+  }
+  
+  .labelclass {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-right: 2%;
+  }
+
+  .labelclass2 {
+    width: 200px;
+  }
+  
+  #tos_label {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+  
+  #tos_checkbox {
+    margin-left: 240px;
+  }
+  
+  #aggrement {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #register-button {
+    margin-left: 240px;
+  }
+  
+  #tos_label2 {
+    margin-top: 0;
+    display: inline-block;
+    margin-left: 240px;
+  }
+
+  .error-msg-img{
+    float: left;
+    width: 25px;
+    height:25px;
+  }
+  .error-msg-img{
+    margin-left: 240px;
+    margin-right: 5px
+  }
+
+  .button2{
+    margin-left: 20px;
+    padding: 5px 0px;
+  }
+
+  #footer{
+    position:absolute;
+    top:600px;
+    width:100%
+  }
+
+  
